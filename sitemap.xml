@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://mahmudurrahmanlabib.github.io/</loc><lastmod>2017-01-27T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/posts/deep-copying-in-js/</loc><lastmod>2017-01-27T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/tags/js/</loc><lastmod>2017-01-27T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/tags/mwos/</loc><lastmod>2017-01-27T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/posts/</loc><lastmod>2017-01-27T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/tags/</loc><lastmod>2017-01-27T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/posts/google-summer-of-code/</loc><lastmod>2016-08-20T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/tags/gsoc/</loc><lastmod>2016-08-20T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/tags/oppia/</loc><lastmod>2016-08-20T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/tags/editors/</loc><lastmod>2016-07-23T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/tags/emacs/</loc><lastmod>2016-07-23T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/tags/spacemacs/</loc><lastmod>2016-07-23T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/posts/why-spacemacs/</loc><lastmod>2016-07-23T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/tags/first/</loc><lastmod>2016-07-22T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/posts/the-journey-begins/</loc><lastmod>2016-07-22T00:00:00+00:00</lastmod></url><url><loc>https://mahmudurrahmanlabib.github.io/categories/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://vinodjangid.site</loc>
+        <lastmod>2024-03-08</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vinodjangid.site/AXOCEAN</loc>
+        <lastmod>2024-03-08</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vinodjangid.site/Pexelicons</loc>
+        <lastmod>2024-03-08</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vinodjangid.site/Aquaregia</loc>
+        <lastmod>2024-03-08</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vinodjangid.site/QR-Generator</loc>
+        <lastmod>2024-03-08</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
