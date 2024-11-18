@@ -5,19 +5,9 @@
     padding: 0;
 }
 
-*::selection {
-    background-color: transparent;
-}
-
-*::-moz-selection {
-    background: transparent;
-}
  
 * {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
 
 }
 
@@ -355,10 +345,6 @@ noscript{
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 
 }
 .hey{
