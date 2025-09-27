@@ -1,0 +1,80 @@
+# Robots.txt for Mahmudur Rahman Labib Portfolio
+# DevSecOps Engineer & WordPress Specialist
+# https://mahmudurlabib.com
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Specifically allow important pages for better indexing
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+Allow: /Images/
+Allow: /assets/
+Allow: /PDF/
+Allow: /favicon/
+Allow: /Tools/
+
+# Disallow crawling of sensitive or unnecessary files
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /.vscode/
+Disallow: /node_modules/
+Disallow: /.DS_Store
+Disallow: /README.md
+Disallow: /.gitignore
+
+# Allow crawling of resume/CV for professional visibility
+Allow: /PDF/Mahmudur-Rahman-Labib-Resume-TSE.pdf
+
+# Crawl-delay to be respectful to server resources
+Crawl-delay: 1
+
+# Sitemap location for better SEO
+Sitemap: https://mahmudurlabib.com/sitemap.xml
+
+# Additional directives for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Block common bad bots and scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Allow social media bots for better sharing
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Clean URLs - redirect trailing slashes
+# (This would be handled by server configuration, but noted here for reference)
+
+# Cache directives (informational - actual caching handled by server)
+# Static assets should be cached longer for better performance
