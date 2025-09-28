@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects & Work - Mahmudur Rahman Labib</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-logo">
+                <i class="fas fa-project-diagram"></i>
+                <span>Labib</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#methodologies">Process</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="index.html#contact" class="btn-nav btn-primary" style="text-decoration:none;">Let's Connect</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero projects-hero">
+        <div class="hero-bg-animation"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="hero-badge-icon">🚀</span>
+                    Portfolio & Work
+                </div>
+                <h1 class="hero-title">
+                    My <span class="highlight">Projects</span>, 
+                    <span class="highlight-secondary">Case Studies</span> & Technical Content
+                </h1>
+                <p class="hero-description">
+                    Explore my comprehensive portfolio featuring DevSecOps projects, infrastructure solutions, technical case studies, and educational content. Each project demonstrates practical expertise in modern development practices and security implementations.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#case-studies" class="btn btn-secondary">
+                        <span>Case Studies</span>
+                        <i class="fas fa-chart-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Projects Showcase -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Technical Portfolio</span>
+                <h2 class="section-title">DevSecOps & Infrastructure Projects</h2>
+                <p class="section-description">
+                    Architecting secure, scalable, and resilient systems through advanced DevOps practices, automation, and cloud-native technologies
+                </p>
+            </div>
+            <div class="projects-grid">
+                <!-- 1. FrankenWP - Advanced WordPress Architecture -->
+                <div class="project-card project-card--featured">
+                    <div class="project-image">
+                        <img src="/Images/FrankenWP.png" alt="FrankenWP Advanced WordPress Architecture" />
+                    </div>
+                    <div class="project-content">
+                        <h3>FrankenWP - Advanced WordPress Architecture</h3>
+                        <p>A sophisticated WordPress development framework showcasing advanced architectural patterns, custom post types, meta fields, and complex database relationships. Implements modern PHP standards with PSR-4 autoloading, dependency injection, and comprehensive unit testing. Features custom admin interfaces, REST API extensions, and performance optimization techniques including object caching and database query optimization.</p>
+                        <div class="project-metrics">
+                            <div class="project-metric">
+                                <span class="metric-value">50+</span>
+                                <span class="metric-label">Custom Features</span>
+                            </div>
+                            <div class="project-metric">
+                                <span class="metric-value">99%</span>
+                                <span class="metric-label">Test Coverage</span>
+                            </div>
+                            <div class="project-metric">
+                                <span class="metric-value">3x</span>
+                                <span class="metric-label">Performance Gain</span>
+                            </div>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech-tag">PHP 8+</span>
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">PHPUnit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. WordPress Multisite with Portainer -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/Images/Frame.png" alt="WordPress Multisite with Portainer" />
+                    </div>
+                    <div class="project-content">
+                        <h3>WordPress Multisite with Portainer</h3>
+                        <p>Orchestrated containerized WordPress multisite network using Docker Swarm and Portainer for visual container management. Implemented automated scaling, load balancing with Traefik, and centralized logging. Features shared media storage with NFS, database clustering with MariaDB Galera, and automated SSL certificate management. Enables rapid deployment of new sites with consistent environments and simplified maintenance workflows.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Docker Swarm</span>
+                            <span class="tech-tag">Portainer</span>
+                            <span class="tech-tag">Traefik</span>
+                            <span class="tech-tag">MariaDB</span>
+                            <span class="tech-tag">WordPress Multisite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. WordPress CI/CD with Bedrock -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/Images/Frame.png" alt="WordPress CI/CD with Bedrock" />
+                    </div>
+                    <div class="project-content">
+                        <h3>WordPress CI/CD with Bedrock</h3>
+                        <p>Modern WordPress development workflow using Bedrock framework with automated CI/CD pipelines. Implements GitOps principles with GitHub Actions, automated testing (PHPUnit, Codeception), code quality checks (PHPCS, PHPStan), and deployment to multiple environments. Features environment-specific configurations, database migrations, and rollback capabilities. Integrates with Composer for dependency management and WP-CLI for automation.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Bedrock</span>
+                            <span class="tech-tag">GitHub Actions</span>
+                            <span class="tech-tag">Composer</span>
+                            <span class="tech-tag">WP-CLI</span>
+                            <span class="tech-tag">PHPUnit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Monitoring & Observability Stack -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/Images/Frame.png" alt="Netdata Prometheus Grafana Loki Stack" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Comprehensive Monitoring & Observability</h3>
+                        <p>Full-stack monitoring solution integrating Netdata for real-time metrics, Prometheus for time-series data collection, Grafana for visualization, and Loki for log aggregation. Implemented custom alerting rules, incident response automation, and performance optimization strategies. Successfully identified and resolved critical Redis memory leaks under high load, reducing system downtime by 95% and improving response times by 40%.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Netdata</span>
+                            <span class="tech-tag">Prometheus</span>
+                            <span class="tech-tag">Grafana</span>
+                            <span class="tech-tag">Loki</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Communication & Collaboration Hub -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/Images/Frame.png" alt="Rocket.Chat Matrix Jitsi Meet Stack" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Unified Communication Platform</h3>
+                        <p>Integrated communication ecosystem combining Rocket.Chat for team messaging, Matrix for federated communication, and Jitsi Meet for video conferencing. Implemented single sign-on (SSO), end-to-end encryption, and cross-platform synchronization. Added Uptime Kuma for comprehensive service monitoring with automated failover and notification systems. Achieved 99.9% uptime while supporting 500+ concurrent users.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Rocket.Chat</span>
+                            <span class="tech-tag">Matrix</span>
+                            <span class="tech-tag">Jitsi Meet</span>
+                            <span class="tech-tag">Uptime Kuma</span>
+                            <span class="tech-tag">SSO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Secure Knowledge Management -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/Images/Frame.png" alt="Vaultwarden KaraKeep Security" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure Knowledge & Password Management</h3>
+                        <p>Enterprise-grade security infrastructure using Vaultwarden for password management and KaraKeep for secure knowledge base. Implemented end-to-end encryption, multi-factor authentication, and automated backup strategies. Features role-based access control, audit logging, and compliance with security best practices. Reduced password-related security incidents by 90% and improved team productivity through centralized knowledge management.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Vaultwarden</span>
+                            <span class="tech-tag">KaraKeep</span>
+                            <span class="tech-tag">Encryption</span>
+                            <span class="tech-tag">MFA</span>
+                            <span class="tech-tag">RBAC</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. AI-Driven Content & Automation -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/Images/Frame.png" alt="Nextcloud Ghost N8N OpenAI" />
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Powered Publishing & Automation</h3>
+                        <p>Intelligent content management system integrating Nextcloud for file storage, Ghost for publishing, N8N for workflow automation, and OpenAI for content generation. Automated content creation workflows, SEO optimization, and multi-platform publishing. Features smart content categorization, automated social media posting, and performance analytics. Increased content production efficiency by 300% while maintaining high quality standards.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Nextcloud</span>
+                            <span class="tech-tag">Ghost</span>
+                            <span class="tech-tag">N8N</span>
+                            <span class="tech-tag">OpenAI</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. High-Availability Docker Swarm -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/Images/Frame.png" alt="High Availability Docker Swarm" />
+                    </div>
+                    <div class="project-content">
+                        <h3>High-Availability Infrastructure on Docker Swarm</h3>
+                        <p>Enterprise-grade containerized infrastructure using Docker Swarm with multi-node clustering, automated failover, and zero-downtime deployments. Implemented service mesh architecture, distributed storage with GlusterFS, and comprehensive monitoring. Features automatic scaling based on resource utilization, rolling updates, and disaster recovery procedures. Achieved 99.99% uptime with seamless handling of node failures and maintenance windows.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Docker Swarm</span>
+                            <span class="tech-tag">GlusterFS</span>
+                            <span class="tech-tag">Load Balancing</span>
+                            <span class="tech-tag">Auto-scaling</span>
+                            <span class="tech-tag">Service Mesh</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. Kubernetes WordPress Deployment -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/Images/Frame.png" alt="WordPress on K3s Kubernetes" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Scalable WordPress on Kubernetes (K3s)</h3>
+                        <p>Production-ready WordPress deployment on lightweight K3s Kubernetes cluster with horizontal pod autoscaling, persistent volume management, and ingress controllers. Implemented GitOps workflows with ArgoCD, automated SSL certificate management with cert-manager, and comprehensive monitoring with Prometheus. Features blue-green deployments, database replication, and multi-environment support with resource quotas and network policies.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">K3s</span>
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">ArgoCD</span>
+                            <span class="tech-tag">Cert-Manager</span>
+                            <span class="tech-tag">HPA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10. Security Hardening Lab -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/Images/Frame.png" alt="Security Lab with Caddy ModSecurity" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Advanced Security Laboratory</h3>
+                        <p>Comprehensive security testing environment featuring Caddy as reverse proxy with automatic HTTPS, ModSecurity Web Application Firewall with OWASP Core Rule Set, Fail2Ban for intrusion prevention, and automated malware scanning with ClamAV. Implemented security headers, rate limiting, and DDoS protection. Features continuous security monitoring, vulnerability scanning, and automated incident response. Reduced security threats by 98% and achieved SOC 2 compliance.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Caddy</span>
+                            <span class="tech-tag">ModSecurity</span>
+                            <span class="tech-tag">Fail2Ban</span>
+                            <span class="tech-tag">ClamAV</span>
+                            <span class="tech-tag">OWASP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11. Backup & Disaster Recovery -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/Images/Frame.png" alt="Backup Disaster Recovery S3" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Automated Backup & Disaster Recovery</h3>
+                        <p>Enterprise-grade backup and disaster recovery solution using AWS S3 with cross-region replication, automated scheduling, and intelligent lifecycle management. Implemented incremental backups, point-in-time recovery, and automated testing of backup integrity. Features encryption at rest and in transit, compliance reporting, and RTO/RPO optimization. Achieved 15-minute RTO and 5-minute RPO with 99.999999999% data durability and reduced backup costs by 60% through intelligent tiering.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">AWS S3</span>
+                            <span class="tech-tag">Cross-Region Replication</span>
+                            <span class="tech-tag">Lifecycle Management</span>
+                            <span class="tech-tag">Encryption</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">In-Depth Analysis</span>
+                <h2 class="section-title">Technical Case Studies</h2>
+                <p class="section-description">
+                    Detailed analysis of complex technical challenges, solutions implemented, and lessons learned from real-world projects
+                </p>
+            </div>
+            <div class="case-studies-grid">
+                <!-- Case Study 1: Performance Optimization -->
+                <div class="case-study-card case-study-card--featured">
+                    <!-- Shine Effect -->
+                    <div class="case-shine"></div>
+                    
+                    <!-- Animated Background -->
+                    <div class="case-background">
+                        <div class="case-tiles">
+                            <div class="case-tile tile-1"></div>
+                            <div class="case-tile tile-2"></div>
+                            <div class="case-tile tile-3"></div>
+                            <div class="case-tile tile-4"></div>
+                            <div class="case-tile tile-5"></div>
+                            <div class="case-tile tile-6"></div>
+                            <div class="case-tile tile-7"></div>
+                            <div class="case-tile tile-8"></div>
+                            <div class="case-tile tile-9"></div>
+                            <div class="case-tile tile-10"></div>
+                        </div>
+                        <div class="case-line line-1"></div>
+                        <div class="case-line line-2"></div>
+                        <div class="case-line line-3"></div>
+                    </div>
+                    
+                    <div class="case-study-header">
+                        <div class="case-study-category">Performance Optimization</div>
+                        <h3>Scaling WordPress to Handle 10x Traffic</h3>
+                        <div class="case-study-meta">
+                            <span><i class="fas fa-clock"></i> 15 min read</span>
+                            <span><i class="fas fa-tag"></i> Infrastructure</span>
+                        </div>
+                    </div>
+                    <div class="case-study-content">
+                        <p>How we transformed a struggling WordPress site experiencing frequent downtime into a high-performance, scalable platform capable of handling 10x the original traffic load through strategic caching, database optimization, and infrastructure modernization.</p>
+                        
+                        <div class="case-study-challenge">
+                            <h4><i class="fas fa-exclamation-triangle"></i> The Challenge</h4>
+                            <ul>
+                                <li>Site experiencing 60% downtime during peak hours</li>
+                                <li>Page load times exceeding 8 seconds</li>
+                                <li>Database queries taking 2+ seconds to execute</li>
+                                <li>Legacy hosting infrastructure unable to scale</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="case-study-solution">
+                            <h4><i class="fas fa-lightbulb"></i> Solution Implemented</h4>
+                            <ul>
+                                <li>Migrated to containerized architecture with Docker Swarm</li>
+                                <li>Implemented multi-layer caching (Redis, CDN, Object Cache)</li>
+                                <li>Optimized database with proper indexing and query optimization</li>
+                                <li>Set up auto-scaling based on traffic patterns</li>
+                                <li>Implemented comprehensive monitoring and alerting</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="case-study-results">
+                            <h4><i class="fas fa-chart-line"></i> Results Achieved</h4>
+                            <div class="results-metrics">
+                                <div class="result-metric">
+                                    <span class="result-value">99.9%</span>
+                                    <span class="result-label">Uptime</span>
+                                </div>
+                                <div class="result-metric">
+                                    <span class="result-value">1.2s</span>
+                                    <span class="result-label">Page Load Time</span>
+                                </div>
+                                <div class="result-metric">
+                                    <span class="result-value">10x</span>
+                                    <span class="result-label">Traffic Capacity</span>
+                                </div>
+                                <div class="result-metric">
+                                    <span class="result-value">85%</span>
+                                    <span class="result-label">Cost Reduction</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="case-study-technologies">
+                            <span class="tech-tag">Docker Swarm</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">Nginx</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">CloudFlare</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 2: Security Implementation -->
+                <div class="case-study-card">
+                    <!-- Shine Effect -->
+                    <div class="case-shine"></div>
+                    
+                    <!-- Animated Background -->
+                    <div class="case-background">
+                        <div class="case-tiles">
+                            <div class="case-tile tile-1"></div>
+                            <div class="case-tile tile-2"></div>
+                            <div class="case-tile tile-3"></div>
+                            <div class="case-tile tile-4"></div>
+                            <div class="case-tile tile-5"></div>
+                            <div class="case-tile tile-6"></div>
+                            <div class="case-tile tile-7"></div>
+                            <div class="case-tile tile-8"></div>
+                            <div class="case-tile tile-9"></div>
+                            <div class="case-tile tile-10"></div>
+                        </div>
+                        <div class="case-line line-1"></div>
+                        <div class="case-line line-2"></div>
+                        <div class="case-line line-3"></div>
+                    </div>
+                    
+                    <div class="case-study-header">
+                        <div class="case-study-category">Security Hardening</div>
+                        <h3>Zero-Trust Security Implementation</h3>
+                        <div class="case-study-meta">
+                            <span><i class="fas fa-clock"></i> 12 min read</span>
+                            <span><i class="fas fa-tag"></i> Security</span>
+                        </div>
+                    </div>
+                    <div class="case-study-content">
+                        <p>Implementing a comprehensive zero-trust security model for a multi-tenant WordPress platform, reducing security incidents by 98% and achieving SOC 2 compliance.</p>
+                        
+                        <div class="case-study-challenge">
+                            <h4><i class="fas fa-exclamation-triangle"></i> Security Challenges</h4>
+                            <ul>
+                                <li>Multiple security breaches in 6 months</li>
+                                <li>Lack of proper access controls</li>
+                                <li>No comprehensive audit logging</li>
+                                <li>Compliance requirements not met</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="case-study-results">
+                            <h4><i class="fas fa-chart-line"></i> Security Improvements</h4>
+                            <div class="results-metrics">
+                                <div class="result-metric">
+                                    <span class="result-value">98%</span>
+                                    <span class="result-label">Threat Reduction</span>
+                                </div>
+                                <div class="result-metric">
+                                    <span class="result-value">100%</span>
+                                    <span class="result-label">Compliance</span>
+                                </div>
+                                <div class="result-metric">
+                                    <span class="result-value">24/7</span>
+                                    <span class="result-label">Monitoring</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="case-study-technologies">
+                            <span class="tech-tag">ModSecurity</span>
+                            <span class="tech-tag">Fail2Ban</span>
+                            <span class="tech-tag">Vault</span>
+                            <span class="tech-tag">SIEM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 3: DevOps Transformation -->
+                <div class="case-study-card">
+                    <!-- Shine Effect -->
+                    <div class="case-shine"></div>
+                    
+                    <!-- Animated Background -->
+                    <div class="case-background">
+                        <div class="case-tiles">
+                            <div class="case-tile tile-1"></div>
+                            <div class="case-tile tile-2"></div>
+                            <div class="case-tile tile-3"></div>
+                            <div class="case-tile tile-4"></div>
+                            <div class="case-tile tile-5"></div>
+                            <div class="case-tile tile-6"></div>
+                            <div class="case-tile tile-7"></div>
+                            <div class="case-tile tile-8"></div>
+                            <div class="case-tile tile-9"></div>
+                            <div class="case-tile tile-10"></div>
+                        </div>
+                        <div class="case-line line-1"></div>
+                        <div class="case-line line-2"></div>
+                        <div class="case-line line-3"></div>
+                    </div>
+                    
+                    <div class="case-study-header">
+                        <div class="case-study-category">DevOps Transformation</div>
+                        <h3>Legacy to Modern CI/CD Pipeline</h3>
+                        <div class="case-study-meta">
+                            <span><i class="fas fa-clock"></i> 10 min read</span>
+                            <span><i class="fas fa-tag"></i> DevOps</span>
+                        </div>
+                    </div>
+                    <div class="case-study-content">
+                        <p>Transforming a legacy manual deployment process into a fully automated CI/CD pipeline, reducing deployment time from hours to minutes and eliminating human errors.</p>
+                        
+                        <div class="case-study-challenge">
+                            <h4><i class="fas fa-exclamation-triangle"></i> Legacy Challenges</h4>
+                            <ul>
+                                <li>Manual deployments taking 4+ hours</li>
+                                <li>High error rate in deployments</li>
+                                <li>No automated testing</li>
+                                <li>Inconsistent environments</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="case-study-results">
+                            <h4><i class="fas fa-chart-line"></i> DevOps Results</h4>
+                            <div class="results-metrics">
+                                <div class="result-metric">
+                                    <span class="result-value">5min</span>
+                                    <span class="result-label">Deployment Time</span>
+                                </div>
+                                <div class="result-metric">
+                                    <span class="result-value">0</span>
+                                    <span class="result-label">Failed Deployments</span>
+                                </div>
+                                <div class="result-metric">
+                                    <span class="result-value">100%</span>
+                                    <span class="result-label">Test Coverage</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="case-study-technologies">
+                            <span class="tech-tag">GitHub Actions</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">ArgoCD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Content Section -->
+    <section id="technical-content" class="technical-content-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Knowledge Sharing</span>
+                <h2 class="section-title">Technical Content & Resources</h2>
+                <p class="section-description">
+                    Educational content, tutorials, and technical insights to help the developer community learn and grow
+                </p>
+            </div>
+            
+            <!-- Content Categories -->
+            <div class="content-categories">
+                <button class="category-filter active" data-category="all">All Content</button>
+                <button class="category-filter" data-category="tutorials">Tutorials</button>
+                <button class="category-filter" data-category="guides">Guides</button>
+                <button class="category-filter" data-category="insights">Insights</button>
+                <button class="category-filter" data-category="tools">Tools</button>
+            </div>
+            
+            <div class="technical-content-grid">
+                <!-- Tutorial 1 -->
+                <article class="content-card" data-category="tutorials">
+                    <div class="content-header">
+                        <div class="content-category">Tutorial</div>
+                        <div class="content-date">Dec 2024</div>
+                    </div>
+                    <div class="content-body">
+                        <h3>Setting up WordPress with Docker Swarm</h3>
+                        <p>A comprehensive guide to deploying WordPress in a Docker Swarm cluster with load balancing, SSL termination, and automated backups. Perfect for production environments requiring high availability.</p>
+                        <div class="content-meta">
+                            <span><i class="fas fa-clock"></i> 25 min read</span>
+                            <span><i class="fas fa-eye"></i> 2.1K views</span>
+                            <span><i class="fas fa-heart"></i> 89 likes</span>
+                        </div>
+                        <div class="content-technologies">
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Traefik</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Guide 1 -->
+                <article class="content-card" data-category="guides">
+                    <div class="content-header">
+                        <div class="content-category">Guide</div>
+                        <div class="content-date">Nov 2024</div>
+                    </div>
+                    <div class="content-body">
+                        <h3>DevSecOps Best Practices for WordPress</h3>
+                        <p>Essential security practices for WordPress development teams, covering everything from secure coding standards to automated security testing and vulnerability management in CI/CD pipelines.</p>
+                        <div class="content-meta">
+                            <span><i class="fas fa-clock"></i> 18 min read</span>
+                            <span><i class="fas fa-eye"></i> 1.8K views</span>
+                            <span><i class="fas fa-heart"></i> 67 likes</span>
+                        </div>
+                        <div class="content-technologies">
+                            <span class="tech-tag">Security</span>
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">CI/CD</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Insight 1 -->
+                <article class="content-card" data-category="insights">
+                    <div class="content-header">
+                        <div class="content-category">Insight</div>
+                        <div class="content-date">Oct 2024</div>
+                    </div>
+                    <div class="content-body">
+                        <h3>The Evolution of WordPress Hosting</h3>
+                        <p>An analysis of how WordPress hosting has evolved from shared hosting to modern containerized solutions, and what this means for developers and businesses in 2024 and beyond.</p>
+                        <div class="content-meta">
+                            <span><i class="fas fa-clock"></i> 12 min read</span>
+                            <span><i class="fas fa-eye"></i> 3.2K views</span>
+                            <span><i class="fas fa-heart"></i> 124 likes</span>
+                        </div>
+                        <div class="content-technologies">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Hosting</span>
+                            <span class="tech-tag">Containers</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tool 1 -->
+                <article class="content-card" data-category="tools">
+                    <div class="content-header">
+                        <div class="content-category">Tool</div>
+                        <div class="content-date">Sep 2024</div>
+                    </div>
+                    <div class="content-body">
+                        <h3>WordPress Performance Monitoring Dashboard</h3>
+                        <p>An open-source Grafana dashboard specifically designed for WordPress performance monitoring, featuring custom metrics, alerts, and optimization recommendations.</p>
+                        <div class="content-meta">
+                            <span><i class="fas fa-download"></i> 456 downloads</span>
+                            <span><i class="fas fa-star"></i> 4.8/5 rating</span>
+                            <span><i class="fas fa-code-branch"></i> Open Source</span>
+                        </div>
+                        <div class="content-technologies">
+                            <span class="tech-tag">Grafana</span>
+                            <span class="tech-tag">Monitoring</span>
+                            <span class="tech-tag">WordPress</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tutorial 2 -->
+                <article class="content-card" data-category="tutorials">
+                    <div class="content-header">
+                        <div class="content-category">Tutorial</div>
+                        <div class="content-date">Aug 2024</div>
+                    </div>
+                    <div class="content-body">
+                        <h3>Kubernetes for WordPress: Complete Setup</h3>
+                        <p>Step-by-step tutorial for deploying WordPress on Kubernetes with persistent storage, auto-scaling, and integrated monitoring. Includes YAML manifests and best practices.</p>
+                        <div class="content-meta">
+                            <span><i class="fas fa-clock"></i> 35 min read</span>
+                            <span><i class="fas fa-eye"></i> 1.5K views</span>
+                            <span><i class="fas fa-heart"></i> 78 likes</span>
+                        </div>
+                        <div class="content-technologies">
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">DevOps</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Guide 2 -->
+                <article class="content-card" data-category="guides">
+                    <div class="content-header">
+                        <div class="content-category">Guide</div>
+                        <div class="content-date">Jul 2024</div>
+                    </div>
+                    <div class="content-body">
+                        <h3>Backup Strategy for Critical WordPress Sites</h3>
+                        <p>Comprehensive backup strategy guide covering automated backups, disaster recovery planning, and testing procedures to ensure business continuity for mission-critical WordPress applications.</p>
+                        <div class="content-meta">
+                            <span><i class="fas fa-clock"></i> 22 min read</span>
+                            <span><i class="fas fa-eye"></i> 2.7K views</span>
+                            <span><i class="fas fa-heart"></i> 95 likes</span>
+                        </div>
+                        <div class="content-technologies">
+                            <span class="tech-tag">Backup</span>
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Mahmudur Rahman Labib</span>
+                    </div>
+                    <p>Architecting secure, scalable, and resilient infrastructure solutions through advanced DevSecOps practices and enterprise-grade system design.</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/MahmudurLabib/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/MahmudurLabib" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/mahmudurrahmanlabib" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/mahmudurrahmanlabib/" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:hello@mahmudurlabib.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Expertise</h4>
+                        <ul>
+                            <li><a href="#">Container Orchestration</a></li>
+                            <li><a href="#">Monitoring & Observability</a></li>
+                            <li><a href="#">CI/CD Pipelines</a></li>
+                            <li><a href="#">Cloud-Native Architecture</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#technical-content">Technical Documentation</a></li>
+                            <li><a href="#technical-content">Infrastructure Templates</a></li>
+                            <li><a href="#case-studies">Security Best Practices</a></li>
+                            <li><a href="#technical-content">DevOps Insights</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mahmudur Rahman Labib. All rights reserved.</p>
+                <p>Empowering businesses through secure, scalable infrastructure solutions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Content filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.category-filter');
+            const contentCards = document.querySelectorAll('.content-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+                    
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter content cards
+                    contentCards.forEach(card => {
+                        if (category === 'all' || card.getAttribute('data-category') === category) {
+                            card.style.display = 'block';
+                            card.style.animation = 'fadeIn 0.5s ease';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
