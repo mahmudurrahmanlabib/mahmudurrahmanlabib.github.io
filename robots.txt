@@ -1,22 +1,39 @@
-# Robots.txt for Mahmudur Rahman Labib Portfolio
-# DevSecOps Engineer & WordPress Specialist
+# Professional Portfolio - Mahmudur Rahman Labib
+# DevOps Engineer | DevSecOps Engineer | WordPress Specialist
+# Personal Branding: Labib | MahmudurLabib | mahmudurrahmanlabib
 # https://mahmudurlabib.com
 
-# Allow all search engines to crawl the entire site
+# Global settings for all bots with priority on personal branding
 User-agent: *
 Allow: /
+# Primary identity
+Allow: /$  # Homepage with personal introduction
+Allow: /about  # About page with professional background
+Allow: /PDF/Mahmudur-Rahman-Labib-Resume-TSE.pdf  # Professional Resume
+Allow: /index.html  # Main portfolio page
 
-# Specifically allow important pages for better indexing
-Allow: /index.html
-Allow: /styles.css
-Allow: /script.js
+# Professional assets and branding materials
+Allow: /assets/images/Labib-Casual-Portrait.jpeg
+Allow: /assets/images/Labib.jpeg
 Allow: /Images/
 Allow: /assets/
-Allow: /PDF/
-Allow: /favicon/
 Allow: /Tools/
+Allow: /PDF/
 
-# Disallow crawling of sensitive or unnecessary files
+# Social Media Profiles - Username Consistency
+# GitHub: mahmudurrahmanlabib
+# LinkedIn: mahmudurrahmanlabib
+# Twitter/X: MahmudurLabib
+# Professional Identity: Labib, Mahmudur Rahman Labib, Mahmudur Labib
+
+# Professional Documents
+Allow: /PDF/Mahmudur-Rahman-Labib-Resume-TSE.pdf  # DevOps Engineer Resume
+
+# Asset files necessary for site functionality
+Allow: /styles.css
+Allow: /script.js
+
+# Prevent indexing of development and system files
 Disallow: /.git/
 Disallow: /.github/
 Disallow: /.vscode/
@@ -24,30 +41,41 @@ Disallow: /node_modules/
 Disallow: /.DS_Store
 Disallow: /README.md
 Disallow: /.gitignore
+Disallow: /*.log$
+Disallow: /*.md$
+Disallow: /*.json$
 
-# Allow crawling of resume/CV for professional visibility
-Allow: /PDF/Mahmudur-Rahman-Labib-Resume-TSE.pdf
-
-# Crawl-delay to be respectful to server resources
-Crawl-delay: 1
-
-# Sitemap location for better SEO
-Sitemap: https://mahmudurlabib.com/sitemap.xml
-
-# Additional directives for major search engines
+# Search Engine Optimization for Professional Identity
+# Google
 User-agent: Googlebot
 Allow: /
+Allow: /about  # Professional background as DevOps Engineer
+Allow: /projects  # DevOps and WordPress projects
 Crawl-delay: 1
 
+# Image Optimization for Personal Brand
+User-agent: Googlebot-Image
+Allow: /Images/
+Allow: /assets/images/
+Allow: /Tools/
+# Priority for professional headshots and project images
+Allow: /assets/images/Labib-Casual-Portrait.jpeg
+Allow: /assets/images/Labib.jpeg
+
+# Bing and Microsoft
 User-agent: Bingbot
 Allow: /
+Allow: /about  # DevOps expertise
+Allow: /projects  # Technical portfolio
 Crawl-delay: 1
 
+# Yahoo
 User-agent: Slurp
 Allow: /
+Allow: /about  # Professional summary
 Crawl-delay: 1
 
-# Block common bad bots and scrapers
+# Block non-essential crawlers
 User-agent: AhrefsBot
 Disallow: /
 
@@ -60,21 +88,55 @@ Disallow: /
 User-agent: DotBot
 Disallow: /
 
-# Allow social media bots for better sharing
-User-agent: facebookexternalhit
-Allow: /
+User-agent: Rogerbot
+Disallow: /
 
-User-agent: Twitterbot
-Allow: /
+User-agent: Screaming Frog SEO Spider
+Disallow: /
 
+# Social Media Profile Optimization
+# Allow crawling for consistent personal branding across platforms
+
+# LinkedIn - Profile: mahmudurrahmanlabib
 User-agent: LinkedInBot
 Allow: /
+Priority: 1.0
 
+# Twitter/X - Handle: MahmudurLabib
+User-agent: Twitterbot
+Allow: /
+Priority: 1.0
+
+# GitHub - Username: mahmudurrahmanlabib
+# Included in main content
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+Priority: 0.8
+
+# Additional Social Platforms
 User-agent: WhatsApp
 Allow: /
 
-# Clean URLs - redirect trailing slashes
-# (This would be handled by server configuration, but noted here for reference)
+User-agent: Discordbot
+Allow: /
 
-# Cache directives (informational - actual caching handled by server)
-# Static assets should be cached longer for better performance
+# Performance Optimization
+Crawl-delay: 1
+
+# XML Sitemap with professional identity focus
+Sitemap: https://mahmudurlabib.com/sitemap.xml
+
+# Canonical domain
+Host: https://mahmudurlabib.com
+
+# Personal Brand Keywords:
+# - Labib
+# - Mahmudur Rahman Labib
+# - Mahmudur Labib
+# - DevOps Engineer
+# - DevSecOps Engineer
+# - WordPress Specialist
+# - MahmudurLabib (Social Media)
+# - mahmudurrahmanlabib (GitHub/LinkedIn)
